@@ -10994,5 +10994,12 @@ header.masthead h1, header.masthead .h1 {
   opacity: 1;
 }
 table, th, td {
-  border: 1px solid black;
+	border: 1px solid black;
+  	border-collapse: collapse;
+}
+th, td {
+  	padding: 10px;
+}
+th {
+	background-color: #FDDF95;
 }
